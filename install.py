@@ -30,7 +30,3 @@ while 1==1:
 
 # Installing and setting up NetworkManager
 sudo bash /opt/starfleet/programs/NetworkManager/install.sh
-
-# Hide the installer
-os.system("mv install.py .install.py")
-os.system("mv .uninstall.py uninstall.py")
