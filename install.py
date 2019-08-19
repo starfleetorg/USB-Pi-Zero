@@ -29,4 +29,4 @@ while 1==1:
         print("Please type either 1 or 2")
 
 # Installing and setting up NetworkManager
-sudo bash /opt/starfleet/programs/NetworkManager/install.sh
+os.system("sudo bash /opt/starfleet/programs/NetworkManager/install.sh")
