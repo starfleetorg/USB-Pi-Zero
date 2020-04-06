@@ -10,7 +10,7 @@ os.system("sudo cp /etc/rc.local ./backups")
 
 # ----------------------------- The real installation work starts here -----------------------------
 print("[i] Enabling the startup LED")
-os.system("sudo echo 'python /opt/starfleet/programs/LED/LED-ON' > /etc/rc.local")
+os.system("sudo echo 'python /opt/starfleetorg/programs/LED/LED-ON' >> /etc/rc.local")
 
 print("[i] Enabling SSH")
 os.system("sudo systemctl enable ssh")
@@ -29,4 +29,4 @@ while 1==1:
         print("Please type either 1 or 2")
 
 # Installing and setting up NetworkManager
-os.system("sudo bash /opt/starfleet/programs/NetworkManager/install.sh")
+os.system("sudo bash /opt/starfleetorg/programs/NetworkManager/install.sh")
