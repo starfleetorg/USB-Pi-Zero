@@ -2,8 +2,8 @@
 A set of open-source software that can allow you to access your Raspberry Pi Zero over USB
 
 ## How to setup
-1. Create a new folder called "starfleetorg" in /opt
-2. Clone this repo into it
+1. Clone this repo into /opt
+2. Rename it to starfleetorg and go into it
 3. Rename uninstall.py to .uninstall.py (it will disappear, it is just hidden)
 4. Run install.py
 5. Poweroff
