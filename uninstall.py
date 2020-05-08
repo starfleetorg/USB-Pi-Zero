@@ -8,3 +8,4 @@ os.system("sudo cp ./backups/rc.local /etc/rc.local")
 
 os.system("sudo apt-get purge network-manager -y") # Uninstalling NetworkManager
 os.system("systemctl disable ssh") # Disabling SSH
+os.system("sudo apt autoremove -y")
