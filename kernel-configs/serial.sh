@@ -4,7 +4,7 @@ echo "dwc2" | sudo tee -a /etc/modules
 echo "libcomposite" | sudo tee -a /etc/modules
 
 # Enable the script to run on startup
-sudo echo 'bash /opt/starfleet/programs/Serial/main.sh' >> /etc/rc.local
+sudo echo 'bash /opt/starfleetorg/programs/Serial/main.sh' >> /etc/rc.local
 sudo systemctl enable getty@ttyGS0.service
 
 # Preventing hanging during shutdown
